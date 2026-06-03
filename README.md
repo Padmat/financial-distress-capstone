@@ -1,21 +1,48 @@
-# Notebooks
+# Explainable AI-Based Early Warning Assessment of Financial Distress and Financial Statement Red Flags
 
-This folder contains Python notebooks used throughout the Capstone Project.
+## Overview
 
-The notebooks cover:
+This repository contains the datasets, notebooks, outputs, and supporting materials developed as part of a Master's Capstone Project on financial distress prediction using Explainable Artificial Intelligence (XAI).
 
-- Data preprocessing
-- Exploratory data analysis (EDA)
-- Feature engineering
-- Financial distress modelling
-- Model evaluation
-- SHAP explainability analysis
-- Company-level risk interpretation
+The study develops an early warning framework for identifying financial distress among Indian listed non-financial companies by integrating:
 
-Primary models implemented:
+- Traditional financial statement variables
+- Engineered financial indicators
+- Governance-oriented audit red flags
+- Machine learning models
+- SHAP-based explainability
+
+## Research Objectives
+
+1. Evaluate whether financial statement variables can predict financial distress.
+2. Identify the most significant drivers of financial distress.
+3. Compare traditional and ensemble machine learning models.
+4. Improve interpretability using SHAP explainability.
+
+## Repository Structure
+
+### data/
+Contains all raw, processed, and multi-year datasets used in the study.
+
+### notebooks/
+Contains Python notebooks used for data preparation, modelling, evaluation, and explainability.
+
+## Models Evaluated
 
 - Logistic Regression
 - Random Forest
 - Gradient Boosting
 
-The notebooks provide a reproducible workflow for developing and evaluating the Explainable AI-based financial distress prediction framework.
+## Explainability
+
+- SHAP Summary Analysis
+- SHAP Feature Importance
+- Company-Level SHAP Explanations
+
+## Author
+
+Padma Thiagarajan
+
+Master's Capstone Project
+
+2026
