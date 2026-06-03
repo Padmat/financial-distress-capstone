@@ -1,25 +1,31 @@
-This folder contains raw and code ata used for the final report.
-# Financial Distress Capstone Project
+# Data Folder
 
-This repository contains the dataset, code, and output files used for the QM640 Data Analytics Capstone final report.
+This folder contains the datasets used in the financial distress prediction study.
 
-## Project Title
-Explainable AI for Early Warning Assessment of Financial Distress and Financial Statement Red Flags
+## Folder Structure
 
-## Contents
+### rawdata/
+Contains source datasets obtained from Screener.in and other publicly available financial data sources before preprocessing.
 
-- `data/` - Raw financial dataset
-- `notebooks/` - Python notebook
-  
+### processeddata/
+Contains cleaned and transformed datasets used for exploratory analysis, feature engineering, model development, and evaluation.
 
-## Data Source
-Financial data was extracted from Screener: https://www.screener.in/
+### multiyeardata/
+Contains datasets developed for exploratory multi-year trend analysis, including financial deterioration indicators such as sales growth, profitability trends, leverage changes, and cash flow patterns.
 
+## Data Description
 
-## Models Used
-- Logistic Regression
-- Random Forest
-- Gradient Boost
+The datasets include:
 
-## Author
-Padma T
+- Financial statement variables
+- Market-related variables
+- Liquidity indicators
+- Profitability indicators
+- Leverage indicators
+- Cash flow measures
+- Engineered financial variables
+- Governance-oriented audit red flags
+
+## Note
+
+The datasets were used exclusively for academic research purposes as part of the Capstone Project.
